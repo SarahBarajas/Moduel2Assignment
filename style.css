@@ -1,12 +1,34 @@
 /* General Styling */
 body {
-    background-color: #black; /* Light background color */
-    color: #white; /* Dark text color for general content */
+     background-color: #white; /* Light background color */
+    color: #black; /* Dark text color for general content */
 }
 
 /* Header Section Styling */
 h1 {
-    background-color: white; /* Black background for the header */
-    color: blueviolet; /* White text color */
+    background-color: white; /* white background for the header */
+    color: blueviolet; /* purple text color */
     
 }
+h2 {
+    background-color: white; /* white background for the header */
+    color: rgb(226, 43, 189); /* pink text color */
+    
+}
+h3 {
+    background-color: white; /* white background for the header */
+    color: rgb(120, 46, 109); /* purple text color */
+    
+}
+.logo {
+    background: left / cover;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font: /* help from w3schools */
+      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+      fantasy;
+    color: #b416c9;
+    text-shadow: #000 2px 2px 0.2rem;
+   
